@@ -1,0 +1,14 @@
+PODS:
+  - BABFrameObservingInputAccessoryView (0.1.0)
+
+DEPENDENCIES:
+  - BABFrameObservingInputAccessoryView (from `../`)
+
+EXTERNAL SOURCES:
+  BABFrameObservingInputAccessoryView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BABFrameObservingInputAccessoryView: e2da7281252bcfeda13fc34dabcc3cc85d985487
+
+COCOAPODS: 0.35.0
