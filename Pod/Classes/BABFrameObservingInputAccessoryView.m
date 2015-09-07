@@ -13,7 +13,7 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
 @interface BABFrameObservingInputAccessoryView()
 
 @property (nonatomic, assign, getter=isObserverAdded) BOOL observerAdded;
-@property (nonatomic, readwrite) CGRect inputAccessorySuperviewFrame;
+@property (nonatomic, readwrite) CGRect keyboardFrame;
 
 @end
 
@@ -57,28 +57,24 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
 
 #pragma mark - Setters & Getters
 
-- (void)setInputAccessorySuperviewFrame:(CGRect)inputAccessorySuperviewFrame {
+- (void)setKeyboardFrame:(CGRect)keyboardFrame {
     
-    if(self.inputAccessorySuperviewFrameChangedBlock) {
+    CGFloat inputAccessoryViewHeight = CGRectGetHeight(self.bounds);
+    CGRect frame = keyboardFrame;
+    frame.origin.y += inputAccessoryViewHeight;
+    frame.size.height -= inputAccessoryViewHeight;
+    
+    if(self.keyboardFrameChangedBlock) {
         
-        CGFloat inputAccessoryViewHeight = CGRectGetHeight(self.bounds);
-        
-        CGRect frame = inputAccessorySuperviewFrame;
-        frame.origin.y += inputAccessoryViewHeight;
-        frame.size.height -= inputAccessoryViewHeight;
-        BOOL visible = [self isKeyboardFrameVisible:frame];
-        self.inputAccessorySuperviewFrameChangedBlock(visible, frame);
+        self.keyboardFrameChangedBlock(self.isKeyboardVisible, frame);
     }
-}
-
-- (CGRect)inputAcesssorySuperviewFrame {
     
-    return self.superview.frame;
+    _keyboardFrame = keyboardFrame;
 }
 
 - (BOOL)isKeyboardVisible {
     
-    return [self isKeyboardFrameVisible:self.inputAcesssorySuperviewFrame];
+    return [self isKeyboardFrameVisible:self.keyboardFrame];
 }
 
 #pragma mark - Overwritten Methods
@@ -102,7 +98,7 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
     
     [super layoutSubviews];
     
-    self.inputAccessorySuperviewFrame = self.superview.frame;
+    self.keyboardFrame = self.superview.frame;
 }
 
 #pragma mark - Observation
@@ -111,7 +107,7 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
     
     if (object == self.superview && ([keyPath isEqualToString:@"frame"] || [keyPath isEqualToString:@"center"])) {
         
-        self.inputAccessorySuperviewFrame = self.superview.frame;
+        self.keyboardFrame = self.superview.frame;
     }
 }
 

@@ -7,76 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36C76D2E876CC1B851EC2BDC1A6DAADE /* BABFrameObservingInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5240C2B7DB9D4CD5321B76E5A36089 /* BABFrameObservingInputAccessoryView.m */; };
+		308ECCF664FC2A5A60DF5AB527507F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E06B7784F6BEBCA05085BFD31E24E0 /* Foundation.framework */; };
+		429656AE381EFFF28244EFE7928285C0 /* BABFrameObservingInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7031B107A2A877A639CB677EA45E3A /* BABFrameObservingInputAccessoryView.m */; };
 		515C8878AD81410027D7CF2C5FBE1CEF /* Pods-BABFrameObservingInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D47F63FE5FB216104E70CD9229FB2 /* Pods-BABFrameObservingInputAccessoryView-dummy.m */; };
-		6241F6A668A4DDB18208D47310A60F47 /* BABFrameObservingInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D86E75CC763AF30F3BE85034660CAF /* BABFrameObservingInputAccessoryView.h */; };
-		BBA89945AEEDF9BF6327EFBB6A489B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337523F0559668D0E7D812ADFE6054DA /* Foundation.framework */; };
-		E1DBDB4E416403C722C63DF11EEB33A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337523F0559668D0E7D812ADFE6054DA /* Foundation.framework */; };
+		52689EAE27AEA6B7A028E2DEDD8ED44F /* BABFrameObservingInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5D5A1197AE98066269728C11814D96 /* BABFrameObservingInputAccessoryView.h */; };
+		7F1D8350DACC5E93A15B9862D5637CDE /* BABFrameObservingInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A422F822CD10FE8E55D25D8DF02362F /* BABFrameObservingInputAccessoryView-dummy.m */; };
+		9180C43295499596F55DCC723C541663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0468FEC8EF8B34123CC6105285BE7F37 /* UIKit.framework */; };
+		E1DBDB4E416403C722C63DF11EEB33A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E06B7784F6BEBCA05085BFD31E24E0 /* Foundation.framework */; };
 		EA5229430B4482C70081A460B4429C25 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAF630552615EDFE45EDE5C5B5165E7 /* Pods-Tests-dummy.m */; };
-		EB572701E6FC46569D1471B5404A97F1 /* BABFrameObservingInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 073FE8DA750A18F8F126B11BB6BF822F /* BABFrameObservingInputAccessoryView-dummy.m */; };
-		ED883B0DFCA4F6F72A9AE870DEC0191A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337523F0559668D0E7D812ADFE6054DA /* Foundation.framework */; };
-		EF37A4A46C63236AC738EBC775F932D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E695A77C4D11ED04A6AA00A68DFE3662 /* UIKit.framework */; };
+		ED883B0DFCA4F6F72A9AE870DEC0191A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E06B7784F6BEBCA05085BFD31E24E0 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		238ADCF94A7DEC06AF0788F3FED122F5 /* PBXContainerItemProxy */ = {
+		0267167977FD87ED7B23149103FFACEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D99BD2D8DB3E2A34AB268BA2D03A4E15;
+			remoteGlobalIDString = 794131693028D5611969CBFC8C6DC6E8;
 			remoteInfo = BABFrameObservingInputAccessoryView;
 		};
-		677D1A34A71E5CCAE4043BBB1F7B401C /* PBXContainerItemProxy */ = {
+		9494503AB2B0FEF8FFCA1696CA500D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D99BD2D8DB3E2A34AB268BA2D03A4E15;
+			remoteGlobalIDString = 794131693028D5611969CBFC8C6DC6E8;
 			remoteInfo = BABFrameObservingInputAccessoryView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		010F7F60950ADA2723DDBFD0F626AE72 /* Pods-BABFrameObservingInputAccessoryView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BABFrameObservingInputAccessoryView-resources.sh"; sourceTree = "<group>"; };
-		073FE8DA750A18F8F126B11BB6BF822F /* BABFrameObservingInputAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BABFrameObservingInputAccessoryView-dummy.m"; sourceTree = "<group>"; };
+		0468FEC8EF8B34123CC6105285BE7F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		07FDF955238AE3B6558C61F0FDF07D86 /* BABFrameObservingInputAccessoryView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BABFrameObservingInputAccessoryView-Private.xcconfig"; sourceTree = "<group>"; };
 		089621D9D58DFF616E31913043B59D15 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A422F822CD10FE8E55D25D8DF02362F /* BABFrameObservingInputAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BABFrameObservingInputAccessoryView-dummy.m"; sourceTree = "<group>"; };
 		14DEF4F0C9BD75DE0DB85F7E4F1F684C /* libPods-BABFrameObservingInputAccessoryView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BABFrameObservingInputAccessoryView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A351659E9E25E25804A246AFC43441C /* libBABFrameObservingInputAccessoryView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBABFrameObservingInputAccessoryView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		337523F0559668D0E7D812ADFE6054DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		19E06B7784F6BEBCA05085BFD31E24E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		37F6B8139DE411AC4E18EAC7DDA7E054 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3A5240C2B7DB9D4CD5321B76E5A36089 /* BABFrameObservingInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BABFrameObservingInputAccessoryView.m; sourceTree = "<group>"; };
 		452F6E4948379B246BE4E5535F5D1C69 /* BABFrameObservingInputAccessoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BABFrameObservingInputAccessoryView-prefix.pch"; sourceTree = "<group>"; };
 		471F0DEA3A2D19B0AAFF546B2A70410A /* Pods-BABFrameObservingInputAccessoryView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BABFrameObservingInputAccessoryView-acknowledgements.plist"; sourceTree = "<group>"; };
+		59E705110C5846CC196E1E5045168F50 /* libBABFrameObservingInputAccessoryView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBABFrameObservingInputAccessoryView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7031B107A2A877A639CB677EA45E3A /* BABFrameObservingInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BABFrameObservingInputAccessoryView.m; sourceTree = "<group>"; };
 		913F2E13AD2EBC46339293C94522EF9D /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAF630552615EDFE45EDE5C5B5165E7 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		A3D86E75CC763AF30F3BE85034660CAF /* BABFrameObservingInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BABFrameObservingInputAccessoryView.h; sourceTree = "<group>"; };
+		AD5D5A1197AE98066269728C11814D96 /* BABFrameObservingInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BABFrameObservingInputAccessoryView.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF6D47F63FE5FB216104E70CD9229FB2 /* Pods-BABFrameObservingInputAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BABFrameObservingInputAccessoryView-dummy.m"; sourceTree = "<group>"; };
 		C984CB45AEEAC64BB653BDA6D0E52F98 /* Pods-BABFrameObservingInputAccessoryView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BABFrameObservingInputAccessoryView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CFA76F7DD872BB1B3034ACD898547215 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC94C587626055FB95BEFED393F66A18 /* Pods-BABFrameObservingInputAccessoryView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BABFrameObservingInputAccessoryView.debug.xcconfig"; sourceTree = "<group>"; };
 		E099280C92A4C65573D4F49C2AAA75F5 /* BABFrameObservingInputAccessoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BABFrameObservingInputAccessoryView.xcconfig; sourceTree = "<group>"; };
-		E695A77C4D11ED04A6AA00A68DFE3662 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E8743138CFB7DBEFB553EAEE8C33D8AE /* Pods-BABFrameObservingInputAccessoryView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BABFrameObservingInputAccessoryView.release.xcconfig"; sourceTree = "<group>"; };
-		EED226596EA9044923BDD5847551B117 /* BABFrameObservingInputAccessoryView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BABFrameObservingInputAccessoryView-Private.xcconfig"; sourceTree = "<group>"; };
 		F88242629B9F66BC61299C15B8588D8E /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
 		FC8B784EE5EE417F2DEFAAD1BDD1E1DE /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		62C9A18DD2E6ED88CDFD04A46B2E0CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308ECCF664FC2A5A60DF5AB527507F1F /* Foundation.framework in Frameworks */,
+				9180C43295499596F55DCC723C541663 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		899D715482868D7D80C26B12EE51AB43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED883B0DFCA4F6F72A9AE870DEC0191A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A74995C7B3B1E32D9FD184830B3E2BD0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBA89945AEEDF9BF6327EFBB6A489B54 /* Foundation.framework in Frameworks */,
-				EF37A4A46C63236AC738EBC775F932D9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +162,8 @@
 		AD9B9C21DAF6268EED396E9FC7B60939 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A3D86E75CC763AF30F3BE85034660CAF /* BABFrameObservingInputAccessoryView.h */,
-				3A5240C2B7DB9D4CD5321B76E5A36089 /* BABFrameObservingInputAccessoryView.m */,
+				AD5D5A1197AE98066269728C11814D96 /* BABFrameObservingInputAccessoryView.h */,
+				7A7031B107A2A877A639CB677EA45E3A /* BABFrameObservingInputAccessoryView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A351659E9E25E25804A246AFC43441C /* libBABFrameObservingInputAccessoryView.a */,
+				59E705110C5846CC196E1E5045168F50 /* libBABFrameObservingInputAccessoryView.a */,
 				14DEF4F0C9BD75DE0DB85F7E4F1F684C /* libPods-BABFrameObservingInputAccessoryView.a */,
 				913F2E13AD2EBC46339293C94522EF9D /* libPods-Tests.a */,
 			);
@@ -181,8 +181,8 @@
 		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				337523F0559668D0E7D812ADFE6054DA /* Foundation.framework */,
-				E695A77C4D11ED04A6AA00A68DFE3662 /* UIKit.framework */,
+				19E06B7784F6BEBCA05085BFD31E24E0 /* Foundation.framework */,
+				0468FEC8EF8B34123CC6105285BE7F37 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -205,8 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				E099280C92A4C65573D4F49C2AAA75F5 /* BABFrameObservingInputAccessoryView.xcconfig */,
-				EED226596EA9044923BDD5847551B117 /* BABFrameObservingInputAccessoryView-Private.xcconfig */,
-				073FE8DA750A18F8F126B11BB6BF822F /* BABFrameObservingInputAccessoryView-dummy.m */,
+				07FDF955238AE3B6558C61F0FDF07D86 /* BABFrameObservingInputAccessoryView-Private.xcconfig */,
+				0A422F822CD10FE8E55D25D8DF02362F /* BABFrameObservingInputAccessoryView-dummy.m */,
 				452F6E4948379B246BE4E5535F5D1C69 /* BABFrameObservingInputAccessoryView-prefix.pch */,
 			);
 			name = "Support Files";
@@ -216,11 +216,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		473962AB8F41FDEAE3A55E3734E27921 /* Headers */ = {
+		D84CCF001A5A626880FE01FF70A87902 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6241F6A668A4DDB18208D47310A60F47 /* BABFrameObservingInputAccessoryView.h in Headers */,
+				52689EAE27AEA6B7A028E2DEDD8ED44F /* BABFrameObservingInputAccessoryView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5E3F632140FB2E0A1BEAB8FF6A0E05D9 /* PBXTargetDependency */,
+				5985CF3B6C751E42AD3D2AC1750E7DBE /* PBXTargetDependency */,
 			);
 			name = "Pods-BABFrameObservingInputAccessoryView";
 			productName = "Pods-BABFrameObservingInputAccessoryView";
@@ -254,20 +254,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				97F978F427E1123BD99B2F8DB814E55B /* PBXTargetDependency */,
+				F00D49AF967BA8779BFBA17F11647560 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
 			productReference = 913F2E13AD2EBC46339293C94522EF9D /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D99BD2D8DB3E2A34AB268BA2D03A4E15 /* BABFrameObservingInputAccessoryView */ = {
+		794131693028D5611969CBFC8C6DC6E8 /* BABFrameObservingInputAccessoryView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FFC653E80076A59C259AEB9C7B7CDE7 /* Build configuration list for PBXNativeTarget "BABFrameObservingInputAccessoryView" */;
+			buildConfigurationList = 8A0663CB39D679BBD9A342E35A614184 /* Build configuration list for PBXNativeTarget "BABFrameObservingInputAccessoryView" */;
 			buildPhases = (
-				D23D9EA39929E8AA10D2D056493FD90A /* Sources */,
-				A74995C7B3B1E32D9FD184830B3E2BD0 /* Frameworks */,
-				473962AB8F41FDEAE3A55E3734E27921 /* Headers */,
+				9DBEF5A07790627026F72540ABB12EC3 /* Sources */,
+				62C9A18DD2E6ED88CDFD04A46B2E0CE6 /* Frameworks */,
+				D84CCF001A5A626880FE01FF70A87902 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -275,7 +275,7 @@
 			);
 			name = BABFrameObservingInputAccessoryView;
 			productName = BABFrameObservingInputAccessoryView;
-			productReference = 2A351659E9E25E25804A246AFC43441C /* libBABFrameObservingInputAccessoryView.a */;
+			productReference = 59E705110C5846CC196E1E5045168F50 /* libBABFrameObservingInputAccessoryView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -299,7 +299,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D99BD2D8DB3E2A34AB268BA2D03A4E15 /* BABFrameObservingInputAccessoryView */,
+				794131693028D5611969CBFC8C6DC6E8 /* BABFrameObservingInputAccessoryView */,
 				0F29D729DBFD02FE6D4DDEBF7BF3826E /* Pods-BABFrameObservingInputAccessoryView */,
 				0FF2D46F0994AD5F584439116F08977B /* Pods-Tests */,
 			);
@@ -315,12 +315,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D23D9EA39929E8AA10D2D056493FD90A /* Sources */ = {
+		9DBEF5A07790627026F72540ABB12EC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB572701E6FC46569D1471B5404A97F1 /* BABFrameObservingInputAccessoryView-dummy.m in Sources */,
-				36C76D2E876CC1B851EC2BDC1A6DAADE /* BABFrameObservingInputAccessoryView.m in Sources */,
+				7F1D8350DACC5E93A15B9862D5637CDE /* BABFrameObservingInputAccessoryView-dummy.m in Sources */,
+				429656AE381EFFF28244EFE7928285C0 /* BABFrameObservingInputAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,17 +335,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E3F632140FB2E0A1BEAB8FF6A0E05D9 /* PBXTargetDependency */ = {
+		5985CF3B6C751E42AD3D2AC1750E7DBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BABFrameObservingInputAccessoryView;
-			target = D99BD2D8DB3E2A34AB268BA2D03A4E15 /* BABFrameObservingInputAccessoryView */;
-			targetProxy = 677D1A34A71E5CCAE4043BBB1F7B401C /* PBXContainerItemProxy */;
+			target = 794131693028D5611969CBFC8C6DC6E8 /* BABFrameObservingInputAccessoryView */;
+			targetProxy = 0267167977FD87ED7B23149103FFACEA /* PBXContainerItemProxy */;
 		};
-		97F978F427E1123BD99B2F8DB814E55B /* PBXTargetDependency */ = {
+		F00D49AF967BA8779BFBA17F11647560 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BABFrameObservingInputAccessoryView;
-			target = D99BD2D8DB3E2A34AB268BA2D03A4E15 /* BABFrameObservingInputAccessoryView */;
-			targetProxy = 238ADCF94A7DEC06AF0788F3FED122F5 /* PBXContainerItemProxy */;
+			target = 794131693028D5611969CBFC8C6DC6E8 /* BABFrameObservingInputAccessoryView */;
+			targetProxy = 9494503AB2B0FEF8FFCA1696CA500D98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -360,6 +360,22 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		038D6A63D2FA210E0D5A63EA0C668D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FDF955238AE3B6558C61F0FDF07D86 /* BABFrameObservingInputAccessoryView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BABFrameObservingInputAccessoryView/BABFrameObservingInputAccessoryView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -455,38 +471,6 @@
 			};
 			name = Debug;
 		};
-		3F7452E9EFE14ABF7986E495E7513395 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED226596EA9044923BDD5847551B117 /* BABFrameObservingInputAccessoryView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BABFrameObservingInputAccessoryView/BABFrameObservingInputAccessoryView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7EE122FCD4843B7DE4C162D2F9395484 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED226596EA9044923BDD5847551B117 /* BABFrameObservingInputAccessoryView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BABFrameObservingInputAccessoryView/BABFrameObservingInputAccessoryView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		C95803EC3D0927B49490146096D1BB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC94C587626055FB95BEFED393F66A18 /* Pods-BABFrameObservingInputAccessoryView.debug.xcconfig */;
@@ -519,6 +503,22 @@
 			};
 			name = Release;
 		};
+		F9B3A85AA3E8C5F03FCF2A10B519DAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FDF955238AE3B6558C61F0FDF07D86 /* BABFrameObservingInputAccessoryView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BABFrameObservingInputAccessoryView/BABFrameObservingInputAccessoryView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -540,11 +540,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FFC653E80076A59C259AEB9C7B7CDE7 /* Build configuration list for PBXNativeTarget "BABFrameObservingInputAccessoryView" */ = {
+		8A0663CB39D679BBD9A342E35A614184 /* Build configuration list for PBXNativeTarget "BABFrameObservingInputAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F7452E9EFE14ABF7986E495E7513395 /* Debug */,
-				7EE122FCD4843B7DE4C162D2F9395484 /* Release */,
+				F9B3A85AA3E8C5F03FCF2A10B519DAC8 /* Debug */,
+				038D6A63D2FA210E0D5A63EA0C668D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

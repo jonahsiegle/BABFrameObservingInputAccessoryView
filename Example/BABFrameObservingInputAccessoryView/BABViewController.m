@@ -33,7 +33,7 @@
     
     __weak typeof(self)weakSelf = self;
     
-    inputView.inputAccessorySuperviewFrameChangedBlock = ^(BOOL keyboardVisible, CGRect keyboardFrame){
+    inputView.keyboardFrameChangedBlock = ^(BOOL keyboardVisible, CGRect keyboardFrame){
         
         CGFloat value = CGRectGetHeight(weakSelf.view.frame) - CGRectGetMinY(keyboardFrame);
         weakSelf.toolbarContainerVerticalSpacingConstraint.constant = MAX(0, value);

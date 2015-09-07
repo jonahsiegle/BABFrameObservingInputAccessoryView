@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3948C22C4247A66FAE990B40"
+               BlueprintIdentifier = "C78403EB781BD96F6F23972C"
                BuildableName = "libBABFrameObservingInputAccessoryView.a"
                BlueprintName = "BABFrameObservingInputAccessoryView"
                ReferencedContainer = "container:Pods.xcodeproj">
