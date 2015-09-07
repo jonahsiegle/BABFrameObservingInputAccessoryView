@@ -7,11 +7,13 @@
 
 #import "BABFrameObservingInputAccessoryView.h"
 
+static const CGFloat BABFrameObservingInputAccessoryViewDefaultHeight = 44.0f;
 static void *BABFrameObservingContext = &BABFrameObservingContext;
 
 @interface BABFrameObservingInputAccessoryView()
 
 @property (nonatomic, assign, getter=isObserverAdded) BOOL observerAdded;
+@property (nonatomic, readwrite) CGRect inputAccessorySuperviewFrame;
 
 @end
 
@@ -24,9 +26,24 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
     self = [super initWithFrame:frame];
     if (self) {
         
-        self.userInteractionEnabled = NO;
+        [self sharedInit];
     }
     return self;
+}
+
+- (instancetype)init
+{
+    self = [super initWithFrame:CGRectMake(0.0f, 0.0f, CGRectGetWidth([UIScreen mainScreen].bounds), BABFrameObservingInputAccessoryViewDefaultHeight)];
+    if (self) {
+        
+        [self sharedInit];
+    }
+    return self;
+}
+
+- (void)sharedInit {
+    
+    self.userInteractionEnabled = NO;
 }
 
 - (void)dealloc {
@@ -40,15 +57,33 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
 
 #pragma mark - Setters & Getters
 
+- (void)setInputAccessorySuperviewFrame:(CGRect)inputAccessorySuperviewFrame {
+    
+    if(self.inputAccessorySuperviewFrameChangedBlock) {
+        
+        CGFloat inputAccessoryViewHeight = CGRectGetHeight(self.bounds);
+        
+        CGRect frame = inputAccessorySuperviewFrame;
+        frame.origin.y += inputAccessoryViewHeight;
+        frame.size.height -= inputAccessoryViewHeight;
+        BOOL visible = [self isKeyboardFrameVisible:frame];
+        self.inputAccessorySuperviewFrameChangedBlock(visible, frame);
+    }
+}
+
 - (CGRect)inputAcesssorySuperviewFrame {
     
     return self.superview.frame;
 }
 
+- (BOOL)isKeyboardVisible {
+    
+    return [self isKeyboardFrameVisible:self.inputAcesssorySuperviewFrame];
+}
+
 #pragma mark - Overwritten Methods
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
-    
     
     if(self.isObserverAdded) {
         
@@ -63,26 +98,29 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
     [super willMoveToSuperview:newSuperview];
 }
 
+- (void)layoutSubviews {
+    
+    [super layoutSubviews];
+    
+    self.inputAccessorySuperviewFrame = self.superview.frame;
+}
+
 #pragma mark - Observation
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     
     if (object == self.superview && ([keyPath isEqualToString:@"frame"] || [keyPath isEqualToString:@"center"])) {
         
-        if(self.inputAcessoryViewFrameChangedBlock) {
-            
-            CGRect frame = self.superview.frame;
-            self.inputAcessoryViewFrameChangedBlock(frame);
-        }
+        self.inputAccessorySuperviewFrame = self.superview.frame;
     }
 }
 
-- (void)layoutSubviews {
+
+#pragma mark - Helper Methods
+
+- (BOOL)isKeyboardFrameVisible:(CGRect)keyboardFrame {
     
-    [super layoutSubviews];
-    
-    CGRect frame = self.superview.frame;
-    self.inputAcessoryViewFrameChangedBlock(frame);
+    return CGRectGetMinY(keyboardFrame) < CGRectGetHeight([UIScreen mainScreen].bounds);
 }
 
 @end

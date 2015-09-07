@@ -9,7 +9,8 @@
 
 @interface BABFrameObservingInputAccessoryView : UIView
 
-@property (nonatomic, copy) void (^inputAcessoryViewFrameChangedBlock)(CGRect frame);
-@property (nonatomic, readonly) CGRect inputAcesssorySuperviewFrame;
+@property (nonatomic, copy) void (^inputAccessorySuperviewFrameChangedBlock)(BOOL keyboardVisible, CGRect keyboardFrame);
+@property (nonatomic, readonly) CGRect inputAccessorySuperviewFrame;
+@property (nonatomic, readonly, getter=isKeyboardVisible) BOOL keyboardVisible;
 
 @end
