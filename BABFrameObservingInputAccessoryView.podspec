@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BABFrameObservingInputAccessoryView"
-  s.version          = "0.2.1"
+  s.version          = "0.2.2"
   s.summary          = "A simple view which allows for an iOS Messages style keyboard input view and panning behavior. "
   s.description      = <<-DESC
 BABFrameObservingInputAccessoryView
