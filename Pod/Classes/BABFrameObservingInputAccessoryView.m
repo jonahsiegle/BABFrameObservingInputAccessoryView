@@ -59,12 +59,12 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
 
 - (void)setKeyboardFrame:(CGRect)keyboardFrame {
     
-    _keyboardFrame = keyboardFrame;
-    
     CGFloat inputAccessoryViewHeight = CGRectGetHeight(self.bounds);
     CGRect frame = keyboardFrame;
     frame.origin.y += inputAccessoryViewHeight;
     frame.size.height -= inputAccessoryViewHeight;
+    
+    _keyboardFrame = frame;
     
     if(self.keyboardFrameChangedBlock) {
         
